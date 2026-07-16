@@ -9,7 +9,7 @@
                 <div class="col-lg-6">
                     <h1 class="display-5 fw-bold mb-3">Discover &amp; Cook Delicious Recipes</h1>
                     <p class="lead text-muted mb-4">
-                        Browse hundreds of hand-picked recipes, from quick weeknight dinners to weekend feasts.
+                        Browse hundreds of hand-picked recipes, from quick weeknight dinners to weekend or night feasts.
                     </p>
                     <form action="{{ route('recipes.search') }}" method="GET" class="d-flex" style="max-width: 480px;">
                         <input type="search" name="q" class="form-control form-control-lg" placeholder="Search for a recipe...">
